@@ -1,0 +1,10 @@
+.picture-pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.small-picture-pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
