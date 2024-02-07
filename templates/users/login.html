@@ -8,6 +8,7 @@
              {{ user_login|crispy}}
              <button class="btn btn-outline-primary">Log in</button>
             <span class="ms-3">No account? Then <a class="btn btn-outline-primary" href="{% url 'users:singup' %}">get registered</a></span>
+             p><a href="{% url "users:passport_set" %}">Forgotten your password?</a></p>
          </form>
     </div>
     </div>
